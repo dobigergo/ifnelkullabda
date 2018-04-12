@@ -20,5 +20,11 @@ a=a-b;
 
 cout << "visszacserélés összeadással:\n" << a << endl << b << endl;
 
+a ^= b;
+b ^= a;
+a ^= b;
+
+
+cout << "megcserélés exorral:\n" << a << endl << b << endl;
 return 0;
 }
