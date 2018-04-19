@@ -12,15 +12,15 @@ time_t rawtime;
                              "Kedd", "Szerda",
                              "Csütörtök", "Péntek", "Szombat"};
 
- 
-  printf ("Add meg az évet: "); fflush(stdout); scanf ("%d",&year);
+  printf("A program megadja a születésnapod heti napját 3000-ben\n");
+  //printf ("Add meg az évet: "); fflush(stdout); scanf ("%d",&year);
   printf ("Add meg a hónapot: "); fflush(stdout); scanf ("%d",&month);
   printf ("Add meg a napot: "); fflush(stdout); scanf ("%d",&day);
 
 
   time ( &rawtime );
   timeinfo = localtime ( &rawtime );
-  timeinfo->tm_year = year - 1900;
+  timeinfo->tm_year = 3000 - 1900;
   timeinfo->tm_mon = month - 1;
   timeinfo->tm_mday = day;
 
