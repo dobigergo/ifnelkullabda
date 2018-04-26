@@ -16,38 +16,38 @@ void kirajzol(){
 system("clear");
 
 for(int i=0;i<szelesseg+2;i++)
-	printf("#");
-	printf("\n");
+	cout << "#";
+	cout << endl;
 for(int i=0;i<y;i++){
-	printf("#");
+	cout << "#";
 	 for(int j=1;j<szelesseg+1;j++)
-	 	printf(" ");
+	 	cout <<" ";
 
-	 printf("#");
-	 printf("\n");
+	 cout << "#";
+	 cout << endl;
 }
 
-printf("#");
+cout << "#";
 for(int i=0;i<x;i++)
-	printf(" ");
-printf("O");
+	cout <<" ";
+cout<<"O";
 for(int i=x+1;i<szelesseg;i++)
-	printf(" ");
-printf("#\n");
+	cout <<" ";
+cout << "#\n";
 
 
 for(int i=y+1;i<magassag+1;i++){
-	printf("#");
+	cout << "#";
 	 for(int j=1;j<szelesseg+1;j++)
-	 	printf(" ");
+	 	cout<<" ";
 
-	 printf("#");
-	 printf("\n");
+	 cout << "#\n";
+	 
 }
 
 for(int i=0;i<szelesseg+2;i++)
-	printf("#");
-	printf("\n");
+	cout << "#";
+cout << endl;
 }
 
 void mozgatas(){
