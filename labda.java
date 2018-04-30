@@ -22,8 +22,6 @@ public class JavaFXSwingApplication1 extends JPanel {
     y+=m;
     n*=ablakx[x];
     m*=ablaky[y];
-    System.out.println(y);
-    System.out.println(x);
     }
     
     @Override
